@@ -6,7 +6,7 @@ agent any
   }
   triggers{
   //pollscm triggering
-  //pollSCM('* * * * *')
+  pollSCM('* * * * *')
   }
   stages{
    stage( 'CheckoutCode'){
