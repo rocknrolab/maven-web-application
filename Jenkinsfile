@@ -4,10 +4,7 @@ agent any
   tools{
   maven 'maven3.8.1'
   }
-  triggers{
-  //pollscm triggering
-  pollSCM('* * * * *')
-  }
+ 
   stages{
    stage( 'CheckoutCode'){
      steps{
